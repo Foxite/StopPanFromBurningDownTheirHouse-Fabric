@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "spfbth",
+  "version": "${version}",
+
+  "name": "Stop Pan From Burning Down Their House",
+  "description": "Disable fire ticking within a radius of a player.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Foxite/StopPanFromBurningDownTheirHouse-Fabric"
+  },
+
+  "license": "AGPL-3.0",
+  "icon": "assets/spfbth/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.foxite.fabric.stoppanfromburningdowntheirhouse.StopPanFromBurningDownTheirHouse"
+    ]
+  },
+  "mixins": [
+    "spfbth.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
