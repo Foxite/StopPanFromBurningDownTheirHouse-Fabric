@@ -1,9 +1,4 @@
-# Fabric Example Mod
+# StopPanFromBurningDownTheirHouse-Fabric
+Disable fire ticking within a certain radius around a certain player, both of these are configurable.
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+To use it, start the world once and close it, then open `config/SPFBDTH.json`. The config should speak for itself.
